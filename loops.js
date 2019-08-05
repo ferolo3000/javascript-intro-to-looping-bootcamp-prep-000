@@ -21,14 +21,15 @@ function whileLoop(number){
 
 function doWhileLoop(num) {
   
-  var i = 0; 
-  
-  function incrementVariable() {
-  i = i + 0;
+var i = 0;
+
+function incrementVariable() {
+  i = i + 1;
 }
-do{
-  console.log("I run once regardless.");
-}while 
-  (incrementVariable() < num);
+
+do {
+  console.log("doo-bee-doo-bee-doo");
+  incrementVariable();
+} while (i < 5);
 
 } 
