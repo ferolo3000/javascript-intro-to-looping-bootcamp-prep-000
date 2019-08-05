@@ -25,11 +25,11 @@ var i = 0;
 
 function incrementVariable() {
   i = i + 1;
+  return i;
 }
 
 do {
-  console.log("I run once regardless.");
-  incrementVariable();
-} while (i < 5);
+  console.log("doo-bee-doo-bee-doo");
+} while (incrementVariable() < 5);
 
 } 
